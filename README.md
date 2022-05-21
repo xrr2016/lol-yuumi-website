@@ -1,5 +1,7 @@
 # LOL 悠米助手
 
+LOL 悠米助手是一个用于查询英雄联盟玩家战绩数据，获取实时对局信息的工具，帮助用户更好的游戏
+
 ## 功能
 
 
@@ -26,6 +28,9 @@
 
 ![profile](https://user-images.githubusercontent.com/18013127/169644834-46974ac5-ab98-4381-81e1-788b82764d1e.png)
 
+爱发电
+
+![afdian-冷石Boy](https://user-images.githubusercontent.com/18013127/169644889-83ad3260-396e-4cd1-8456-2588e55b82ad.jpg)
 
 QQ 群
 
