@@ -1,0 +1,14 @@
+{
+  "name": "lol-yuumi",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "unocss": "^0.36.0",
+    "vite": "^2.9.9"
+  }
+}
