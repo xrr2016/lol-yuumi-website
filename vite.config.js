@@ -2,9 +2,8 @@ import Unocss from "unocss/vite";
 
 export default {
   base: "./",
-  plugins: [
-    Unocss({
-      /* options */
-    }),
-  ],
+  plugins: [Unocss({})],
+  build: {
+    outDir: "docs",
+  },
 };
