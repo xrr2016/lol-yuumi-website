@@ -13,10 +13,9 @@ cd dist
 echo 'yuumi.coldstone.fun' > CNAME
 
 git init
-git checkout -b gh-pages
 git add -A
-git commit -m 'deploy'
+git commit -m 'feat(pages): deploy'
 
-git push -f
+git push git@github.com:xrr2016/lol-yuumi.git -f
 
 cd -
