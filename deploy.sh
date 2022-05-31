@@ -17,3 +17,5 @@ git commit -m 'feat(pages): deploy'
 git push
 
 cd -
+
+exit 0
