@@ -1,7 +1,7 @@
 import Unocss from "unocss/vite";
 
 export default {
-  base: "./",
+  base: "/lol-yuumi/",
   plugins: [
     Unocss({
       /* options */
