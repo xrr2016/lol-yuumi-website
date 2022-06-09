@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh_CN">
   <head>
-    <title>LOL 悠米助手</title>
+    <title>悠米助手</title>
     <meta charset="UTF-8" />
     <link rel="shortcut icon" type="image/png" href="icons/16x16.png" />
     <meta
@@ -19,13 +19,43 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="header">
-      <h1>LOL 悠米助手</h1>
-      <a class="" href="https://" download>立即下载</a>
-    </header>
+    <video
+      class="bg-video"
+      src="./video.mp4"
+      height="984"
+      width="1920"
+      autoplay
+      loop
+      muted
+      playsinline
+    ></video>
 
-    <main class="max-w-960px w-full mx-auto mt-40px">
-      <section class="head">
+    <main class="main">
+      <div class="content">
+        <header class="header">
+          <h1 class="app-name">悠米助手</h1>
+          <p class="app-intro">英雄联盟游戏利器</p>
+        </header>
+
+        <img
+          class="app-image"
+          src="https://user-images.githubusercontent.com/18013127/169644827-7b57a5a8-c10c-46b8-86fe-e388d81a92bb.png"
+          alt=""
+        />
+
+        <div class="buttons">
+          <a href="" class="button">
+            <span class="button-text">奶牛快传</span>
+          </a>
+
+          <a href="" class="button">
+            <span class="button-text">阿里云盘</span>
+          </a>
+        </div>
+        <p class="app-version">最新版本: v1.5.10</p>
+      </div>
+
+      <!-- <section class="head">
         <div class="text-center pb-12 md:pb-16">
           <h1
             class="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 aos-init aos-animate"
@@ -126,17 +156,16 @@
             alt=""
           />
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="flex h-120px items-center">
+    <!-- <footer class="flex h-120px items-center">
       <div class="content max-w-960px w-full mx-auto">
         <a href="https://afdian.net/@coldstoneboy" target="_blank">爱发电</a>
         <a href="https://jq.qq.com/?_wv=1027&k=n51M9J8s" target="_blank"
           >QQ 群</a
         >
       </div>
-    </footer>
-    <script type="module" src="./main.js"></script>
+    </footer> -->
   </body>
 </html>
