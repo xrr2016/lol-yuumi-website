@@ -8,6 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta
       name="description"
       content="LOL 悠米助手是一个用于查询英雄联盟玩家战绩数据，获取实时对局信息的工具，帮助用户更好的游戏"
@@ -15,8 +16,9 @@
     <meta name="author" content="冷石Boy" />
     <meta name="keywords" content="LOL,悠米,助手,英雄联盟,战绩查询" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <link rel="stylesheet" href="./style.css" />
+
+    <link rel="stylesheet" href="./lib/swiper.css" />
   </head>
   <body>
     <video
@@ -37,135 +39,72 @@
           <p class="app-intro">英雄联盟游戏利器</p>
         </header>
 
-        <img
-          class="app-image"
-          src="https://user-images.githubusercontent.com/18013127/169644827-7b57a5a8-c10c-46b8-86fe-e388d81a92bb.png"
-          alt=""
-        />
-
-        <div class="buttons">
-          <a href="" class="button">
-            <span class="button-text">奶牛快传</span>
-          </a>
-
-          <a href="" class="button">
-            <span class="button-text">阿里云盘</span>
-          </a>
-        </div>
-        <p class="app-version">最新版本: v1.5.10</p>
-      </div>
-
-      <!-- <section class="head">
-        <div class="text-center pb-12 md:pb-16">
-          <h1
-            class="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 aos-init aos-animate"
-            data-aos="zoom-y-out"
-          >
-            Make your website
-            <span
-              class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"
-              >wonderful</span
-            >
-          </h1>
-          <div class="max-w-3xl mx-auto">
-            <p
-              class="text-xl text-gray-600 mb-8 aos-init aos-animate"
-              data-aos="zoom-y-out"
-              data-aos-delay="150"
-            >
-              Our landing page template works on all devices, so you only have
-              to set it up once, and get beautiful results forever.
-            </p>
-            <div
-              class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center aos-init aos-animate"
-              data-aos="zoom-y-out"
-              data-aos-delay="300"
-            >
-              <div>
-                <a
-                  class="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                  href="#0"
-                  >Start free trial</a
-                >
-              </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img class="app-image" src="./images/search.png" alt="查询战绩" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="app-image"
+                src="./images/history.png"
+                alt="对局历史"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="app-image"
+                src="./images/matchup.png"
+                alt="对局助手"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="app-image"
+                src="./images/profile.png"
+                alt="召唤师主页"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img class="app-image" src="./images/assist.png" alt="辅助功能" />
             </div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
-      </section>
 
-      <section class="section">
-        <div class="content flex-1">
-          <h2>战绩查询</h2>
+        <div class="buttons">
+          <a
+            href="https://afdian.net/@coldstoneboy"
+            class="button"
+            target="_blank"
+          >
+            下载
+          </a>
         </div>
-        <div class="image flex-1">
-          <img
-            class="w-full"
-            src="https://user-images.githubusercontent.com/18013127/169644827-7b57a5a8-c10c-46b8-86fe-e388d81a92bb.png"
-            alt=""
-          />
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="image flex-1">
-          <img
-            class="w-full"
-            src="https://user-images.githubusercontent.com/18013127/169644827-7b57a5a8-c10c-46b8-86fe-e388d81a92bb.png"
-            alt=""
-          />
-        </div>
-        <div class="content flex-1">
-          <h2 class="text-right">对局助手</h2>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="content flex-1">
-          <h2>游戏记录</h2>
-        </div>
-        <div class="image flex-1">
-          <img
-            class="w-full"
-            src="https://user-images.githubusercontent.com/18013127/169644827-7b57a5a8-c10c-46b8-86fe-e388d81a92bb.png"
-            alt=""
-          />
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="image flex-1">
-          <img
-            class="w-full"
-            src="https://user-images.githubusercontent.com/18013127/169644827-7b57a5a8-c10c-46b8-86fe-e388d81a92bb.png"
-            alt=""
-          />
-        </div>
-        <div class="content flex-1">
-          <h2 class="text-right">辅助功能</h2>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="content flex-1">
-          <h2>个人信息</h2>
-        </div>
-        <div class="image flex-1">
-          <img
-            class="w-full"
-            src="https://user-images.githubusercontent.com/18013127/169644827-7b57a5a8-c10c-46b8-86fe-e388d81a92bb.png"
-            alt=""
-          />
-        </div>
-      </section> -->
+        <p class="app-version">最新版本: v1.5.12</p>
+      </div>
     </main>
 
-    <!-- <footer class="flex h-120px items-center">
-      <div class="content max-w-960px w-full mx-auto">
-        <a href="https://afdian.net/@coldstoneboy" target="_blank">爱发电</a>
-        <a href="https://jq.qq.com/?_wv=1027&k=n51M9J8s" target="_blank"
-          >QQ 群</a
-        >
-      </div>
-    </footer> -->
+    <script src="./lib/swiper.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        direction: "horizontal",
+        loop: true,
+        // effect: "fade",
+        // slidesPerView: 1,
+        spaceBetween: 30,
+        grabCursor: true,
+        mousewheel: true,
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
   </body>
 </html>
